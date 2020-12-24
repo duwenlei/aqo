@@ -1,0 +1,11 @@
+{
+  "anonymous": {
+    "user": ["login","getOpenId"],
+    "manageUser": ["login"],
+    "apiUser": ["save"],
+    "test": ["test1"]
+  },
+  "api": {
+
+  }
+}

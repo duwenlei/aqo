@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    username: grape_cs
+    password: grape_cs
+    url: jdbc:oracle:thin:@shinesend-jy.vicp.io:1521:orcl
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    open-in-view: false
+  devtools:
+    add-properties: true
+    restart:
+      additional-paths: src/main/java
+      enabled: true
+server:
+  servlet:
+    context-path: /aqo
+## 配置文件地址
+aqo:
+  config:
+    file: config/aqo.properties
+
+
